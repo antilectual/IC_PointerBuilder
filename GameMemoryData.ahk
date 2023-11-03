@@ -6,6 +6,8 @@ class GameMemoryData
     EngineSettings := new OffsetData
     DialogManager := new OffsetData
     CrusadersGameDataSet := new OffsetData
+    UserStatHandler := new OffsetData
+    UserData := new OffsetData
 }
 
 class OffsetData
