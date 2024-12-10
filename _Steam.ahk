@@ -321,19 +321,63 @@ SteamPointers["565"].IdleGameManager.moduleAddress := 0x0074D200
 SteamPointers["565"].IdleGameManager.moduleOffset := [0xF08]
 SteamPointers["565"].GameSettings.moduleAddress := 0x00A13548
 SteamPointers["565"].GameSettings.moduleOffset := [0x160, 0x868, 0xA0, 0x1B0]
-SteamPointers["565"].GameSettings.staticOffset := 0x250 ; static value is last value
+SteamPointers["565"].GameSettings.staticOffset := 0x250 
 SteamPointers["565"].EngineSettings.moduleAddress := 0x007742F0 
 SteamPointers["565"].EngineSettings.moduleOffset := [0x280, 0xE0, 0x0, 0x78, 0xAC, 0x68]
-SteamPointers["565"].EngineSettings.staticOffset := 0x0 ; static value is last value
+SteamPointers["565"].EngineSettings.staticOffset := 0x0
 SteamPointers["565"].DialogManager.moduleAddress := 0x00750F98
 SteamPointers["565"].DialogManager.moduleOffset := [0x8B0]
-SteamPointers["565"].CrusadersGameDataSet.moduleAddress := 0x007742B0 ;--broken
+SteamPointers["565"].CrusadersGameDataSet.moduleAddress := 0x007742B0
 SteamPointers["565"].CrusadersGameDataSet.moduleOffset := [0x280, 0xB20]
-;-------------------- untested --------------------------
 SteamPointers["565"].UserStatHandler.moduleAddress := 0x00497DE8 ;untested
 SteamPointers["565"].UserStatHandler.moduleOffset := [0x400, 0x800, 0xB8] ;untested
 SteamPointers["565"].UserStatHandler.staticOffset := 0x0 ;untested
 SteamPointers["565"].UserData.moduleAddress := 0x0049C7C8 ;untested
 SteamPointers["565"].UserData.moduleOffset := [0x40] ;untested
 SteamPointers["565"].UserData.staticOffset := 0xD30 ;untested
+
+SteamPointers["567"] := new GameMemoryData
+SteamPointers["567"].is64 := True
+SteamPointers["567"].IdleGameManager.moduleAddress := 0x0074D200
+SteamPointers["567"].IdleGameManager.moduleOffset := [0xF08]
+SteamPointers["567"].GameSettings.moduleAddress := 0x00A13548
+SteamPointers["567"].GameSettings.moduleOffset := [0x160, 0x868, 0xA0, 0x1B0]
+SteamPointers["567"].GameSettings.staticOffset := 0x250 ; static value is last value
+SteamPointers["567"].EngineSettings.moduleAddress := 0x007742F0 
+SteamPointers["567"].EngineSettings.moduleOffset := [0x280, 0xE0, 0x0, 0x78, 0xAC, 0x68]
+SteamPointers["567"].EngineSettings.staticOffset := 0x0 ; static value is last value
+SteamPointers["567"].DialogManager.moduleAddress := 0x00750F98
+SteamPointers["567"].DialogManager.moduleOffset := [0x8A0]
+SteamPointers["567"].CrusadersGameDataSet.moduleAddress := 0x00750F98
+SteamPointers["567"].CrusadersGameDataSet.moduleOffset := [0x38, 0x40, 0xBA0]
+;-------------------- untested --------------------------
+SteamPointers["567"].UserStatHandler.moduleAddress := 0x00497DE8 ;untested
+SteamPointers["567"].UserStatHandler.moduleOffset := [0x400, 0x800, 0xB8] ;untested
+SteamPointers["567"].UserStatHandler.staticOffset := 0x0 ;untested
+SteamPointers["567"].UserData.moduleAddress := 0x0049C7C8 ;untested
+SteamPointers["567"].UserData.moduleOffset := [0x40] ;untested
+SteamPointers["567"].UserData.staticOffset := 0xD30 ;untested
+;-------------------- /untested -------------------------
+
+SteamPointers["587"] := new GameMemoryData
+SteamPointers["587"].is64 := True
+SteamPointers["587"].IdleGameManager.moduleAddress := 0x0074D200
+SteamPointers["587"].IdleGameManager.moduleOffset := [0xF08]
+SteamPointers["587"].GameSettings.moduleAddress := 0x00A13548
+SteamPointers["587"].GameSettings.moduleOffset := [0x160, 0x868, 0xA0, 0x1B0]
+SteamPointers["587"].GameSettings.staticOffset := 0x250 ; static value is last value
+SteamPointers["587"].EngineSettings.moduleAddress := 0x007742F0 
+SteamPointers["587"].EngineSettings.moduleOffset := [0x280, 0xE0, 0x0, 0x78, 0xAC, 0x68]
+SteamPointers["587"].EngineSettings.staticOffset := 0x0 ; static value is last value
+SteamPointers["587"].DialogManager.moduleAddress := 0x00750F98
+SteamPointers["587"].DialogManager.moduleOffset := [0x38, 0x40, 0xCA0]
+SteamPointers["587"].CrusadersGameDataSet.moduleAddress := 0x00750F98
+SteamPointers["587"].CrusadersGameDataSet.moduleOffset := [0x38, 0x40, 0xB60]
+;-------------------- untested --------------------------
+SteamPointers["587"].UserStatHandler.moduleAddress := 0x00497DE8 ;untested
+SteamPointers["587"].UserStatHandler.moduleOffset := [0x400, 0x800, 0xB8] ;untested
+SteamPointers["587"].UserStatHandler.staticOffset := 0x0 ;untested
+SteamPointers["587"].UserData.moduleAddress := 0x0049C7C8 ;untested
+SteamPointers["587"].UserData.moduleOffset := [0x40] ;untested
+SteamPointers["587"].UserData.staticOffset := 0xD30 ;untested
 ;-------------------- /untested -------------------------

@@ -64,4 +64,6 @@ AllPlatforms["CNE"] := CNEPointers
 AllPlatforms["Beta"] := OfflineBetaPointers
 
 WriteObjectToJSON( "PointerData.json", AllPlatforms )
+;WriteObjectToJSON( "../../SharedFunctions/IC/PointerData.json", AllPlatforms )
+WriteObjectToJSON( "../../Addons/IC_Core/PointerData.json", AllPlatforms )
 OutputDebug, % "Done!"
